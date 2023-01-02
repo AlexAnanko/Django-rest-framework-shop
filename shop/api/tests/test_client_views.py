@@ -101,7 +101,7 @@ class TestProductsView(TestCase):
     def test_products_all_view(self):
         response = self.client.get(reverse('products-all'))
         self.assertIsInstance(response.data, list)
-        keys_list_expected = ["id, "name""]
+        keys_list_expected = ["id", "name"]
         self.assertEqual(list(response.data.keys()), keys_list_expected)
         [
             {
