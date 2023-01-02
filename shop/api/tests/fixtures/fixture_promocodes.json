@@ -1,0 +1,10 @@
+[
+  {"model": "api.promocode",
+    "pk": 1,
+    "fields": {
+      "name": "promocode1",
+      "percent": 10,
+      "expire_date": "2022-12-17T16:24:22Z",
+      "is_allowed_to_sum_with_discounts": true}
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+      "name": "Coca-Cola",
+      "articul": "808289406",
+      "price": "5.49",
+      "count_on_stock": 1000,
+      "producer": 6,
+      "category": 1,
+      "description": "Carbonated soft drink",
+      "discount": 1
+    }
+  }
+]
+
