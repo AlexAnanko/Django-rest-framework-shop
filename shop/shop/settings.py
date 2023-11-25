@@ -33,8 +33,8 @@ ALLOWED_HOSTS = ['0.0.0.0']
 
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'a.ananka@yandex.by'
-EMAIL_HOST_PASSWORD = 'ANNa09031998'
+EMAIL_HOST_USER = '****'
+EMAIL_HOST_PASSWORD = '****'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
@@ -97,9 +97,9 @@ WSGI_APPLICATION = 'shop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'shop_db',
-        'USER': 'postgres',
-        'PASSWORD': 'ANNa09031998',
+        'NAME': 'DATABASE',
+        'USER': '*****',
+        'PASSWORD': '*****',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
